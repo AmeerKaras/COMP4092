@@ -1,0 +1,4 @@
+dbfile = 'prac1db.db';
+conn = sqlite(dbfile);
+
+sqlquery = 'SELECT * FROM patient';
